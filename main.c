@@ -49,6 +49,7 @@ static const char* __version__ = "0.1.17";
 #include <string.h>
 #include <libgen.h>
 #include <getopt.h>
+#include <limits.h>
 #include <signal.h>
 #include <errno.h>
 #include <time.h>
@@ -60,6 +61,7 @@ static const char* __version__ = "0.1.17";
 #include <net/if.h>
 
 #include <linux/can.h>
+#include <linux/sockios.h>
 
 
 /* ***	options  ***
